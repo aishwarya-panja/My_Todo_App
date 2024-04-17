@@ -7,6 +7,7 @@ import { CiEdit } from "react-icons/ci";
 
 function App() {
 
+  // This is my first Todo App
   // initialising the various state variabes using useState hook
   const [allTodos, setTodos] = useState([]) ;
   const [newTitle , setNewTitle] = useState("") ;
